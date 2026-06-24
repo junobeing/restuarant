@@ -80,7 +80,7 @@ export function HeroCarousel({
   return (
     <section
       id="home"
-      className="relative isolate overflow-hidden pb-9 pt-24 text-white sm:pt-28 lg:min-h-[650px]"
+      className="relative isolate min-h-[590px] overflow-hidden pb-28 pt-28 text-white sm:min-h-[620px] sm:pb-12 sm:pt-28 lg:min-h-[650px]"
     >
       <div className="absolute inset-0 -z-20">
         {slides.map((item, index) => (
@@ -131,7 +131,7 @@ export function HeroCarousel({
           <p className="mt-5 hidden max-w-2xl text-lg leading-7 text-white/82 sm:block sm:text-xl">
             {slide.text}
           </p>
-          <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-7 hidden flex-col gap-3 sm:flex sm:flex-row">
             <a
               href="#reservation"
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#d6a84f] px-6 text-sm font-black uppercase tracking-[0.14em] text-[#09251d] transition hover:bg-[#f0c86b]"
@@ -141,7 +141,7 @@ export function HeroCarousel({
             </a>
             <Link
               href={plannerHref}
-              className="hidden min-h-12 items-center justify-center gap-2 rounded-full border border-white/25 bg-white/10 px-6 text-sm font-bold text-white backdrop-blur transition hover:bg-white/18 sm:inline-flex"
+              className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-white/25 bg-white/10 px-6 text-sm font-bold text-white backdrop-blur transition hover:bg-white/18"
             >
               {copy.events}
             </Link>
@@ -167,22 +167,40 @@ export function HeroCarousel({
                 type="button"
                 aria-label={`Show ${item.eyebrow} slide`}
                 onClick={() => setActiveSlide(index)}
-                className={`h-2 flex-1 rounded-full transition ${
-                  index === activeSlide ? "bg-[#d6a84f]" : "bg-white/28"
+                className={`h-1.5 flex-1 rounded-full transition ${
+                  index === activeSlide ? "bg-[#d6a84f]/80" : "bg-white/18"
                 }`}
               />
             ))}
           </div>
         </aside>
-        <div className="flex gap-2 lg:hidden">
+      </div>
+
+      <div className="absolute inset-x-5 bottom-5 z-20 grid gap-4 sm:hidden">
+        <div className="grid gap-3">
+          <a
+            href="#reservation"
+            className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-[#d6a84f] px-4 text-center text-xs font-black uppercase tracking-[0.12em] text-[#09251d] transition hover:bg-[#f0c86b]"
+          >
+            {copy.reserve}
+            <ArrowRight className="size-4" aria-hidden="true" />
+          </a>
+          <Link
+            href={plannerHref}
+            className="inline-flex min-h-11 items-center justify-center rounded-full border border-white/20 bg-white/10 px-4 text-center text-xs font-bold text-white backdrop-blur transition hover:bg-white/18"
+          >
+            {copy.events}
+          </Link>
+        </div>
+        <div className="flex gap-2">
           {slides.map((item, index) => (
             <button
               key={item.title}
               type="button"
               aria-label={`Show ${item.eyebrow} slide`}
               onClick={() => setActiveSlide(index)}
-              className={`h-1.5 flex-1 rounded-full transition ${
-                index === activeSlide ? "bg-[#d6a84f]" : "bg-white/30"
+              className={`h-1 flex-1 rounded-full transition ${
+                index === activeSlide ? "bg-[#d6a84f]/75" : "bg-white/18"
               }`}
             />
           ))}
