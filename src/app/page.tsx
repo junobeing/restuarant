@@ -139,7 +139,6 @@ export default async function Home({
               href="#reservation"
               className="inline-flex min-h-11 items-center gap-2 rounded-full bg-[#d6a84f] px-4 text-sm font-bold text-[#09251d] shadow-lg shadow-black/20 transition hover:bg-[#f0c86b]"
             >
-              <Phone className="size-4" aria-hidden="true" />
               {t.header.book}
             </a>
           </div>
