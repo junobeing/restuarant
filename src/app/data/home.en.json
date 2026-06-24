@@ -1,0 +1,303 @@
+{
+  "header": {
+    "brandType": "Irish Pub & Restaurant",
+    "spaces": "Spaces",
+    "food": "Food & drink",
+    "events": "Events",
+    "visit": "Visit",
+    "book": "Book a table"
+  },
+  "hero": {
+    "reserve": "Reserve your table",
+    "events": "Plan a table request",
+    "slides": [
+      {
+        "eyebrow": "Live Football & Rugby",
+        "title": "World Cup match nights",
+        "text": "Turn big fixtures into a full pub night with cold pints, screens, friends, chants and a table ready before kick-off.",
+        "detail": "Big screens, big fixtures, big atmosphere",
+        "bullets": [
+          "Football, rugby and tournament broadcasts",
+          "Group tables for fans and afterworks",
+          "Reserve early for headline matches"
+        ]
+      },
+      {
+        "eyebrow": "Irish Pub & Restaurant",
+        "title": "Molly Malone's",
+        "text": "A modern Irish pub experience on the Chartrons quays: terrace pints, pub classics, live music, match nights and group reservations until late.",
+        "detail": "83 Quai des Chartrons, Bordeaux",
+        "bullets": [
+          "Terrace on the Chartrons quays",
+          "Lunch, dinner and after-hours drinks",
+          "Reservations for groups up to 100"
+        ]
+      },
+      {
+        "eyebrow": "Live Music",
+        "title": "Live acoustic nights",
+        "text": "Stage, microphone and sound setup make Molly's a natural stop for live music, singalongs and late-night Bordeaux plans.",
+        "detail": "Stage, mic, piano and sound system",
+        "bullets": [
+          "Live concerts and acoustic sets",
+          "Warm pub room with close-up atmosphere",
+          "Dinner, drinks and music in one place"
+        ]
+      },
+      {
+        "eyebrow": "Groups & Parties",
+        "title": "Birthdays, afterworks & student nights",
+        "text": "Bring the crew for terrace drinks, sharing boards, match nights or a festive table in the heart of Chartrons.",
+        "detail": "Group reservations up to 100 guests",
+        "bullets": [
+          "Afterworks, birthdays and private groups",
+          "Terrace, dining room and event corner",
+          "Open daily from 10:30 to 02:00"
+        ]
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": "4.4/5",
+      "label": "Google rating via Privateaser",
+      "detail": "Trusted local listing"
+    },
+    {
+      "value": "100",
+      "label": "Group reservation capacity",
+      "detail": "Bring the whole crew"
+    },
+    {
+      "value": "120 m",
+      "label": "From Tram B Chartrons",
+      "detail": "Easy quay-side arrival"
+    },
+    {
+      "value": "Daily",
+      "label": "10:30 - 02:00",
+      "detail": "Lunch through late drinks"
+    }
+  ],
+  "spaces": {
+    "eyebrow": "The pub",
+    "title": "Quay-side terrace, warm dining room and space for a proper night out.",
+    "text": "Built for everything from one pint after the Sunday market to a full birthday table, with indoor seating, terrace space and a group-friendly layout.",
+    "items": [
+      {
+        "title": "Front terrace",
+        "text": "Sunny tables facing the quays, made for market-day pints, casual lunches and long Bordeaux evenings.",
+        "meta": "Outdoor seating"
+      },
+      {
+        "title": "Pub dining room",
+        "text": "A warm Irish pub room for burgers, fish and chips, steak and ale pie, afterwork rounds and late dinners.",
+        "meta": "Lunch, dinner, drinks"
+      },
+      {
+        "title": "Event corner",
+        "text": "Stage-ready setup with piano, microphone and sound equipment for live sets, birthdays and work gatherings.",
+        "meta": "Music and private events"
+      }
+    ]
+  },
+  "menu": {
+    "eyebrow": "Menu",
+    "title": "Real pub plates, pints and whiskey without the boring menu wall.",
+    "intro": "Select a few food and drink ideas to shape a table request for a group, match night or live music evening.",
+    "cta": "Plan a table request",
+    "featured": [
+      {
+        "name": "Galway Fish & Chips",
+        "description": "Beer-battered fish, fries and proper Irish pub comfort for terrace lunches and match nights.",
+        "tag": "Pub classic"
+      },
+      {
+        "name": "Big Irish Breakfast",
+        "description": "Sausage, bacon, eggs, baked beans, fries and tomato for the table that came hungry.",
+        "tag": "Hearty plates"
+      },
+      {
+        "name": "Dublin Tapas",
+        "description": "Calamari, onion rings, spicy cheese bites and prawns for a group-friendly pub start.",
+        "tag": "To share"
+      }
+    ],
+    "categories": [
+      {
+        "title": "Irish pub mains",
+        "note": "Comfort plates",
+        "items": [
+          ["Steak & Chips", "Grilled beef with sauce and fries or salad"],
+          ["Galway Fish & Chips", "Beer-battered fish fillet, Irish classic"],
+          ["Lamb Brochette", "Grilled lamb skewer with rice and tzatziki"],
+          ["Big Irish Breakfast", "Sausage, bacon, eggs, beans, fries and tomato"]
+        ]
+      },
+      {
+        "title": "Tapas to share",
+        "note": "Before music or kick-off",
+        "items": [
+          ["Dublin Tapas", "Calamari, onion rings, spicy cheese bites and prawns"],
+          ["Spicy Chicken Wings", "A bowl of spicy chicken wings made for groups"],
+          ["Terrace snacks", "Simple plates for pints, afterworks and late tables"]
+        ]
+      },
+      {
+        "title": "Sweet finish",
+        "note": "Dessert and coffee",
+        "items": [
+          ["Baileys Cheesecake", "Creamy cheesecake with an Irish pub signature"],
+          ["Coffee and hot chocolate", "A softer landing after dinner or music"]
+        ]
+      },
+      {
+        "title": "Draught beers",
+        "note": "On tap",
+        "items": [
+          ["Kilkenny", "Creamy Irish red ale"],
+          ["Carlsberg", "Blonde lager for easy rounds"],
+          ["Guinness", "Classic Irish stout"]
+        ]
+      },
+      {
+        "title": "Irish whiskey",
+        "note": "Old Ireland pours",
+        "items": [
+          ["Jameson and Paddy", "Familiar Irish blends"],
+          ["Tullamore Dew", "A dependable Irish whiskey staple"],
+          ["Connemara", "Peated single malt character"],
+          ["Blackbush and Bushmills", "Smooth reserve-style pours"]
+        ]
+      },
+      {
+        "title": "Softs and easy extras",
+        "note": "For every table",
+        "items": [
+          ["Sodas and juices", "Coca, Perrier, Orangina, Schweppes and Pago"],
+          ["Tea and coffee", "Choice of teas, cafe and hot chocolate"],
+          ["Celebration bottles", "Champagne for bigger moments"]
+        ]
+      }
+    ],
+    "matchCard": {
+      "eyebrow": "Match night move",
+      "title": "Book a table before the fixture fills the room.",
+      "text": "Pair pints with Galway Fish & Chips, Dublin Tapas or wings, then stay for the final whistle.",
+      "cta": "Reserve now"
+    }
+  },
+  "visitMoments": {
+    "eyebrow": "Plan the visit",
+    "title": "One pub, three easy reasons to come in.",
+    "text": "The site should push clear moments: lunch, music and groups. These are the fastest decisions for guests browsing on mobile.",
+    "items": [
+      {
+        "title": "Lunch on the quays",
+        "text": "Fast pub plates for work breaks, tourists and Sunday market visits."
+      },
+      {
+        "title": "Dinner before music",
+        "text": "Come early for warm plates before the room turns into a live set."
+      },
+      {
+        "title": "Food for groups",
+        "text": "Sharing plates and casual dishes keep bigger tables easy to manage."
+      }
+    ]
+  },
+  "bar": {
+    "eyebrow": "Behind the bar",
+    "title": "Cold pints, whisky shelves and a room that keeps moving.",
+    "text": "The bar is the anchor: pints for the terrace, whisky for slower evenings, and easy rounds for match-night tables."
+  },
+  "events": {
+    "eyebrow": "What's on",
+    "title": "Live music, football nights and a crowd that knows the chorus.",
+    "text": "Molly Malone's is set up for atmosphere: screens for major sports, a stage for concerts and enough space for big groups without losing the pub feel.",
+    "items": [
+      {
+        "label": "Live music",
+        "title": "Acoustic sessions and pub concerts",
+        "text": "Weekly live music energy with the easy, noisy charm of a proper Irish pub."
+      },
+      {
+        "label": "Match nights",
+        "title": "Football, rugby and World Cup screens",
+        "text": "Big-game atmosphere for France, Ireland, Premier League nights and tournament fixtures."
+      },
+      {
+        "label": "Groups",
+        "title": "Birthdays, afterworks and student nights",
+        "text": "Reserve tables for a small crew or bring the whole team for a relaxed Chartrons gathering."
+      }
+    ]
+  },
+  "reservation": {
+    "eyebrow": "Book a table",
+    "title": "Reserve for dinner, match night or a private group.",
+    "text": "For the fastest confirmation, call the pub directly. For larger groups, include your preferred space, event type and timing.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "guests": "Guests",
+    "guestsPlaceholder": "2, 8, 30...",
+    "date": "Date",
+    "time": "Time",
+    "occasion": "Occasion",
+    "options": [
+      "Dinner reservation",
+      "Terrace drinks",
+      "Live music night",
+      "Football or World Cup screening",
+      "Birthday or afterwork",
+      "Private group enquiry"
+    ],
+    "call": "Send reservation request",
+    "directions": "Get directions"
+  },
+  "venueFeatures": {
+    "eyebrow": "Venue essentials",
+    "title": "Built for the way pub nights actually happen.",
+    "text": "A strong landing page should turn practical venue features into reasons to book: groups, sound, screens and easy comfort.",
+    "items": [
+      {
+        "title": "Group friendly",
+        "text": "Afterworks, birthdays, student nights and casual business drinks without making the booking feel complicated."
+      },
+      {
+        "title": "Ready for sound",
+        "text": "Stage, microphone and sound equipment make concerts, speeches and event moments feel natural."
+      },
+      {
+        "title": "Easy essentials",
+        "text": "Wi-Fi, table service, television, terrace seating and accessible listing features for a smoother visit."
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "A look inside Molly's.",
+    "text": "Public venue photography from Bordeaux listing pages, selected to show the real facade, seating, bar, terrace and event atmosphere."
+  },
+  "visit": {
+    "eyebrow": "Visit",
+    "title": "On the quays in historic Chartrons.",
+    "text": "Drop in before or after a walk along the Garonne, meet friends after the Sunday market, or make Molly Malone's the base for your next match night.",
+    "details": [
+      ["Address", "83 Quai des Chartrons, 33300 Bordeaux"],
+      ["Phone", "+33 5 57 87 06 72"],
+      ["Hours", "Monday to Sunday, 10:30 - 02:00"],
+      ["Transit", "Tram B, Chartrons stop"]
+    ],
+    "quote": "A lively Irish pub for terrace drinks, live concerts and match nights in one of Bordeaux's best walking districts.",
+    "whatsapp": "Start a booking chat",
+    "instagram": "Follow Molly Malone's Bordeaux"
+  },
+  "whatsappMessage": "Hello Molly Malone's, I would like to plan a table reservation.",
+  "footer": {
+    "brandType": "Irish Pub & Restaurant - Chartrons, Bordeaux",
+    "pubClassics": "Pub classics",
+    "liveMusic": "Live music",
+    "sports": "Sports nights"
+  }
+}

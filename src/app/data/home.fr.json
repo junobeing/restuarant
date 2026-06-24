@@ -1,0 +1,303 @@
+{
+  "header": {
+    "brandType": "Irish Pub & Restaurant",
+    "spaces": "Espaces",
+    "food": "Carte & boissons",
+    "events": "Evenements",
+    "visit": "Infos pratiques",
+    "book": "Reserver"
+  },
+  "hero": {
+    "reserve": "Reserver une table",
+    "events": "Preparer une demande",
+    "slides": [
+      {
+        "eyebrow": "Football & Rugby en direct",
+        "title": "Soirees Coupe du Monde",
+        "text": "Les grands matchs prennent vie dans un pub chaleureux avec pintes fraiches, ecrans, amis et table reservee avant le coup d'envoi.",
+        "detail": "Grands ecrans, grands matchs, grande ambiance",
+        "bullets": [
+          "Diffusion football, rugby et tournois",
+          "Tables pour groupes, supporters et afterworks",
+          "Reservation conseillee pour les grands matchs"
+        ]
+      },
+      {
+        "eyebrow": "Irish Pub & Restaurant",
+        "title": "Molly Malone's",
+        "text": "Un pub irlandais moderne sur les quais des Chartrons : terrasse, classiques de pub, musique live, soirees sportives et reservations de groupes.",
+        "detail": "83 Quai des Chartrons, Bordeaux",
+        "bullets": [
+          "Terrasse sur les quais des Chartrons",
+          "Dejeuner, diner et verres tardifs",
+          "Reservations de groupes jusqu'a 100 personnes"
+        ]
+      },
+      {
+        "eyebrow": "Musique live",
+        "title": "Soirees acoustiques",
+        "text": "Scene, micro et sonorisation font de Molly's une adresse naturelle pour concerts, chansons et soirees bordelaises.",
+        "detail": "Scene, micro, piano et sonorisation",
+        "bullets": [
+          "Concerts live et sessions acoustiques",
+          "Salle chaleureuse avec vraie proximite",
+          "Diner, verres et musique au meme endroit"
+        ]
+      },
+      {
+        "eyebrow": "Groupes & fetes",
+        "title": "Anniversaires, afterworks & soirees etudiantes",
+        "text": "Reunissez votre groupe pour des verres en terrasse, des assiettes a partager, des matchs ou une table festive au coeur des Chartrons.",
+        "detail": "Reservations de groupes jusqu'a 100 personnes",
+        "bullets": [
+          "Afterworks, anniversaires et groupes prives",
+          "Terrasse, salle et espace evenement",
+          "Ouvert tous les jours de 10:30 a 02:00"
+        ]
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": "4.4/5",
+      "label": "Note Google via Privateaser",
+      "detail": "Adresse bien referencee"
+    },
+    {
+      "value": "100",
+      "label": "Capacite de groupe",
+      "detail": "Venez avec toute l'equipe"
+    },
+    {
+      "value": "120 m",
+      "label": "Depuis le tram B Chartrons",
+      "detail": "Arrivee facile sur les quais"
+    },
+    {
+      "value": "Tous les jours",
+      "label": "10:30 - 02:00",
+      "detail": "Du dejeuner aux verres tardifs"
+    }
+  ],
+  "spaces": {
+    "eyebrow": "Le pub",
+    "title": "Terrasse sur les quais, salle chaleureuse et espace pour une vraie soiree.",
+    "text": "Du verre apres le marche du dimanche a la table d'anniversaire, Molly Malone's combine salle interieure, terrasse et configuration pratique pour les groupes.",
+    "items": [
+      {
+        "title": "Terrasse en facade",
+        "text": "Des tables face aux quais pour les pintes au soleil, les dejeuners simples et les longues soirees bordelaises.",
+        "meta": "Places en terrasse"
+      },
+      {
+        "title": "Salle du pub",
+        "text": "Une salle irlandaise chaleureuse pour burgers, fish and chips, steak and ale pie, afterworks et diners tardifs.",
+        "meta": "Dejeuner, diner, boissons"
+      },
+      {
+        "title": "Espace evenement",
+        "text": "Scene, piano, micro et sonorisation pour concerts, anniversaires et reunions d'equipe.",
+        "meta": "Musique et groupes"
+      }
+    ]
+  },
+  "menu": {
+    "eyebrow": "Carte",
+    "title": "Des assiettes de pub, des pintes et du whiskey sans mur de menu ennuyeux.",
+    "intro": "Selectionnez quelques plats et boissons pour imaginer une reservation de groupe, un match ou une soiree live.",
+    "cta": "Preparer une demande",
+    "featured": [
+      {
+        "name": "Galway Fish & Chips",
+        "description": "Poisson en pate a biere, frites et vrai confort de pub irlandais pour le dejeuner ou les soirees match.",
+        "tag": "Classique pub"
+      },
+      {
+        "name": "Big Irish Breakfast",
+        "description": "Saucisse, bacon, oeufs, haricots, frites et tomate pour les tables qui arrivent avec faim.",
+        "tag": "Assiette genereuse"
+      },
+      {
+        "name": "Dublin Tapas",
+        "description": "Calamars, onion rings, bouchees de fromage epicees et crevettes pour commencer a partager.",
+        "tag": "A partager"
+      }
+    ],
+    "categories": [
+      {
+        "title": "Plats de pub irlandais",
+        "note": "Assiettes confort",
+        "items": [
+          ["Steak & Chips", "Boeuf grille avec sauce, frites ou salade"],
+          ["Galway Fish & Chips", "Filet de poisson en pate a biere, classique irlandais"],
+          ["Lamb Brochette", "Brochette d'agneau avec riz et tzatziki"],
+          ["Big Irish Breakfast", "Saucisse, bacon, oeufs, haricots, frites et tomate"]
+        ]
+      },
+      {
+        "title": "Tapas a partager",
+        "note": "Avant la musique ou le coup d'envoi",
+        "items": [
+          ["Dublin Tapas", "Calamars, onion rings, bouchees de fromage et crevettes"],
+          ["Spicy Chicken Wings", "Ailes de poulet epicees pour la table"],
+          ["Snacks terrasse", "Assiettes simples pour pintes, afterworks et tables tardives"]
+        ]
+      },
+      {
+        "title": "Fin sucree",
+        "note": "Dessert et cafe",
+        "items": [
+          ["Baileys Cheesecake", "Cheesecake cremeux avec signature irlandaise"],
+          ["Cafe et chocolat chaud", "Une fin plus douce apres diner ou musique"]
+        ]
+      },
+      {
+        "title": "Bieres pression",
+        "note": "Au comptoir",
+        "items": [
+          ["Kilkenny", "Red ale irlandaise cremeuse"],
+          ["Carlsberg", "Lager blonde facile a partager"],
+          ["Guinness", "Stout irlandaise classique"]
+        ]
+      },
+      {
+        "title": "Irish whiskey",
+        "note": "Pours irlandais",
+        "items": [
+          ["Jameson et Paddy", "Blends irlandais familiers"],
+          ["Tullamore Dew", "Un grand classique irlandais"],
+          ["Connemara", "Single malt tourbe avec caractere"],
+          ["Blackbush et Bushmills", "Pours doux de style reserve"]
+        ]
+      },
+      {
+        "title": "Softs et extras",
+        "note": "Pour chaque table",
+        "items": [
+          ["Sodas et jus", "Coca, Perrier, Orangina, Schweppes et Pago"],
+          ["The et cafe", "Selection de thes, cafe et chocolat chaud"],
+          ["Bouteilles celebration", "Champagne pour les grandes occasions"]
+        ]
+      }
+    ],
+    "matchCard": {
+      "eyebrow": "Soiree match",
+      "title": "Reservez avant que la salle soit pleine.",
+      "text": "Associez pintes, Galway Fish & Chips, Dublin Tapas ou wings, puis restez jusqu'au coup de sifflet final.",
+      "cta": "Reserver"
+    }
+  },
+  "visitMoments": {
+    "eyebrow": "Preparer la visite",
+    "title": "Un pub, trois bonnes raisons de venir.",
+    "text": "Le site doit pousser des moments clairs : dejeuner, musique et groupes. Ce sont les decisions les plus rapides sur mobile.",
+    "items": [
+      {
+        "title": "Dejeuner sur les quais",
+        "text": "Assiettes rapides pour pause de travail, visiteurs et marche du dimanche."
+      },
+      {
+        "title": "Diner avant la musique",
+        "text": "Arrivez tot pour une assiette chaude avant que la salle passe en live."
+      },
+      {
+        "title": "Plats pour groupes",
+        "text": "Assiettes a partager et plats simples rendent les grandes tables faciles."
+      }
+    ]
+  },
+  "bar": {
+    "eyebrow": "Cote bar",
+    "title": "Pintes fraiches, etageres de whiskey et une salle qui vit.",
+    "text": "Le bar est le point d'ancrage : pintes pour la terrasse, whiskey pour les soirees plus lentes et tournees faciles pour les tables de match."
+  },
+  "events": {
+    "eyebrow": "Agenda",
+    "title": "Musique live, soirees football et une salle qui chante.",
+    "text": "Molly Malone's est pense pour l'ambiance : ecrans pour les grands sports, scene pour les concerts et assez d'espace pour les groupes sans perdre l'esprit pub.",
+    "items": [
+      {
+        "label": "Musique live",
+        "title": "Sessions acoustiques et concerts de pub",
+        "text": "Une energie live reguliere avec le charme simple et vivant d'un vrai Irish pub."
+      },
+      {
+        "label": "Soirees match",
+        "title": "Football, rugby et Coupe du Monde",
+        "text": "Ambiance de grands matchs pour la France, l'Irlande, la Premier League et les tournois."
+      },
+      {
+        "label": "Groupes",
+        "title": "Anniversaires, afterworks et soirees etudiantes",
+        "text": "Reservez quelques tables ou venez avec toute l'equipe pour un moment detendu aux Chartrons."
+      }
+    ]
+  },
+  "reservation": {
+    "eyebrow": "Reserver une table",
+    "title": "Reservez pour diner, un match ou un groupe prive.",
+    "text": "Pour une confirmation rapide, contactez directement le pub. Pour les grands groupes, indiquez l'espace souhaite, le type d'evenement et l'horaire.",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "guests": "Personnes",
+    "guestsPlaceholder": "2, 8, 30...",
+    "date": "Date",
+    "time": "Heure",
+    "occasion": "Occasion",
+    "options": [
+      "Reservation diner",
+      "Verres en terrasse",
+      "Soiree musique live",
+      "Football ou Coupe du Monde",
+      "Anniversaire ou afterwork",
+      "Demande groupe prive"
+    ],
+    "call": "Envoyer la demande",
+    "directions": "Itineraire"
+  },
+  "venueFeatures": {
+    "eyebrow": "Essentiels du lieu",
+    "title": "Pense pour la vraie vie des soirees pub.",
+    "text": "Une bonne landing page transforme les avantages pratiques en raisons de reserver : groupes, son, ecrans et confort.",
+    "items": [
+      {
+        "title": "Parfait pour groupes",
+        "text": "Afterworks, anniversaires, soirees etudiantes et verres professionnels sans rendre la reservation compliquee."
+      },
+      {
+        "title": "Pret pour le son",
+        "text": "Scene, micro et sonorisation donnent du naturel aux concerts, discours et moments d'evenement."
+      },
+      {
+        "title": "Confort pratique",
+        "text": "Wi-Fi, service a table, television, terrasse et informations d'accessibilite pour une visite plus fluide."
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Un apercu de Molly's.",
+    "text": "Photos publiques de pages de listing bordelaises, choisies pour montrer facade, salle, bar, terrasse et ambiance evenement."
+  },
+  "visit": {
+    "eyebrow": "Venir",
+    "title": "Sur les quais, au coeur des Chartrons.",
+    "text": "Passez avant ou apres une balade le long de la Garonne, retrouvez des amis apres le marche du dimanche, ou faites de Molly Malone's votre base pour le prochain match.",
+    "details": [
+      ["Adresse", "83 Quai des Chartrons, 33300 Bordeaux"],
+      ["Telephone", "+33 5 57 87 06 72"],
+      ["Horaires", "Lundi a dimanche, 10:30 - 02:00"],
+      ["Tram", "Tram B, arret Chartrons"]
+    ],
+    "quote": "Un Irish pub vivant pour verres en terrasse, concerts live et soirees match dans l'un des meilleurs quartiers de balade de Bordeaux.",
+    "whatsapp": "Demarrer une demande",
+    "instagram": "Suivre Molly Malone's Bordeaux"
+  },
+  "whatsappMessage": "Bonjour Molly Malone's, je souhaite preparer une reservation de table.",
+  "footer": {
+    "brandType": "Irish Pub & Restaurant - Chartrons, Bordeaux",
+    "pubClassics": "Classiques de pub",
+    "liveMusic": "Musique live",
+    "sports": "Soirees sport"
+  }
+}
