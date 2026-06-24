@@ -252,7 +252,7 @@
       "Birthday or afterwork",
       "Private group enquiry"
     ],
-    "call": "Send reservation request",
+    "call": "Reserve",
     "directions": "Get directions"
   },
   "venueFeatures": {

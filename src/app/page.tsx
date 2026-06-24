@@ -454,7 +454,7 @@ export default async function Home({
         </div>
       </section>
 
-      <section id="reservation" className="bg-[#f3efe5] py-24">
+      <section className="bg-[#f3efe5] py-24">
         <div className="mx-auto grid max-w-7xl gap-8 px-5 sm:px-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-stretch">
           <div className="relative min-h-[520px] overflow-hidden rounded-[8px]">
             <Image
@@ -465,7 +465,10 @@ export default async function Home({
               className="object-cover"
             />
           </div>
-          <div className="rounded-[8px] bg-white p-6 shadow-xl shadow-[#14251f]/10 sm:p-9">
+          <div
+            id="reservation"
+            className="scroll-mt-28 rounded-[8px] bg-white p-6 shadow-xl shadow-[#14251f]/10 sm:p-9"
+          >
             <p className="text-sm font-black uppercase tracking-[0.22em] text-[#8a1f2d]">
               {t.reservation.eyebrow}
             </p>
@@ -521,7 +524,6 @@ export default async function Home({
                   href="tel:+33557870672"
                   className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#8a1f2d] px-5 text-sm font-black uppercase tracking-[0.14em] text-white transition hover:bg-[#6f1824]"
                 >
-                  <Phone className="size-4" aria-hidden="true" />
                   {t.reservation.call}
                 </a>
                 <a
