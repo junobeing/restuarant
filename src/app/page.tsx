@@ -86,16 +86,16 @@ export default async function Home({
   return (
     <main className="min-h-screen bg-[#fbfaf6] text-[#14251f]">
       <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#09251d]/85 text-white backdrop-blur-xl">
-        <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
-          <a href="#home" className="flex items-center gap-3">
-            <span className="grid size-10 place-items-center rounded-full bg-[#d6a84f] text-lg font-black text-[#09251d]">
+        <nav className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-4 sm:px-8">
+          <a href="#home" className="flex min-w-0 items-center gap-2 sm:gap-3">
+            <span className="grid size-9 shrink-0 place-items-center rounded-full bg-[#d6a84f] text-base font-black text-[#09251d] sm:size-10 sm:text-lg">
               MM
             </span>
-            <span className="leading-tight">
-              <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#d6a84f]">
+            <span className="min-w-0 leading-tight">
+              <span className="block whitespace-nowrap text-xs font-semibold uppercase tracking-[0.12em] text-[#d6a84f] sm:text-sm sm:tracking-[0.2em]">
                 Molly Malone&apos;s
               </span>
-              <span className="block text-xs text-white/70">
+              <span className="block whitespace-nowrap text-[11px] text-white/70 sm:text-xs">
                 {t.header.brandType}
               </span>
             </span>
@@ -115,9 +115,9 @@ export default async function Home({
             </a>
           </div>
           <div className="flex items-center gap-2">
-            <div className="hidden items-center rounded-full border border-white/12 bg-white/8 p-1 text-xs font-black text-white/70 sm:flex">
+            <div className="flex items-center rounded-full border border-white/12 bg-white/8 p-1 text-[11px] font-black text-white/70 sm:text-xs">
               <Link
-                className={`rounded-full px-3 py-1 ${
+                className={`rounded-full px-2 py-1 sm:px-3 ${
                   !isFrench ? "bg-white/12 text-white" : ""
                 }`}
                 href="/"
@@ -125,19 +125,19 @@ export default async function Home({
                 EN
               </Link>
               <Link
-                className={`inline-flex items-center gap-1 rounded-full px-3 py-1 transition hover:text-white ${
+                className={`inline-flex items-center gap-1 rounded-full px-2 py-1 transition hover:text-white sm:px-3 ${
                   isFrench ? "bg-white/12 text-white" : ""
                 }`}
                 href="/?lang=fr"
                 aria-label="Switch language to French"
               >
-                <Languages className="size-3.5" aria-hidden="true" />
+                <Languages className="hidden size-3.5 sm:block" aria-hidden="true" />
                 FR
               </Link>
             </div>
             <a
               href="#reservation"
-              className="inline-flex min-h-11 items-center gap-2 rounded-full bg-[#d6a84f] px-4 text-sm font-bold text-[#09251d] shadow-lg shadow-black/20 transition hover:bg-[#f0c86b]"
+              className="inline-flex min-h-10 shrink-0 items-center gap-2 whitespace-nowrap rounded-full bg-[#d6a84f] px-3 text-xs font-bold text-[#09251d] shadow-lg shadow-black/20 transition hover:bg-[#f0c86b] sm:min-h-11 sm:px-4 sm:text-sm"
             >
               {t.header.book}
             </a>
@@ -499,14 +499,14 @@ export default async function Home({
                   {t.reservation.date}
                   <input
                     type="date"
-                    className="min-h-12 rounded-[8px] border border-[#cfd5ca] px-4 font-normal outline-none transition focus:border-[#8a1f2d]"
+                    className="min-h-12 w-full min-w-0 rounded-[8px] border border-[#cfd5ca] px-4 font-normal outline-none transition focus:border-[#8a1f2d]"
                   />
                 </label>
                 <label className="grid gap-2 text-sm font-bold">
                   {t.reservation.time}
                   <input
                     type="time"
-                    className="min-h-12 rounded-[8px] border border-[#cfd5ca] px-4 font-normal outline-none transition focus:border-[#8a1f2d]"
+                    className="min-h-12 w-full min-w-0 rounded-[8px] border border-[#cfd5ca] px-4 font-normal outline-none transition focus:border-[#8a1f2d]"
                   />
                 </label>
               </div>
